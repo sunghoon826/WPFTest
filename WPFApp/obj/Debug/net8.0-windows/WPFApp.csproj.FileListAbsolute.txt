@@ -58,3 +58,4 @@ D:\repos\WPFTest\WPFApp\obj\Debug\net8.0-windows\refint\WPFApp.dll
 D:\repos\WPFTest\WPFApp\obj\Debug\net8.0-windows\WPFApp.pdb
 D:\repos\WPFTest\WPFApp\obj\Debug\net8.0-windows\WPFApp.genruntimeconfig.cache
 D:\repos\WPFTest\WPFApp\obj\Debug\net8.0-windows\ref\WPFApp.dll
+D:\repos\WPFTest\WPFApp\obj\Debug\net8.0-windows\WPFApp.sourcelink.json

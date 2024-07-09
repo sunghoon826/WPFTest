@@ -5,6 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Threading;
 using Wpf.Ui;
+using WPFApp.Interfaces;
 using WPFApp.Services;
 using WPFApp.ViewModels.Pages;
 using WPFApp.ViewModels.Windows;
@@ -45,6 +46,10 @@ namespace WPFApp
                 // Main window with navigation
                 services.AddSingleton<INavigationWindow, MainWindow>();
                 services.AddSingleton<MainWindowViewModel>();
+
+                // 서비스 등록
+                services.AddSingleton<IDateTime, DateTimeService>();
+
 
                 services.AddSingleton<DashboardPage>();
                 services.AddSingleton<DashboardViewModel>();
